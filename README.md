@@ -1,7 +1,7 @@
 # ANGULAR-ALGO
 angular-algos coding game et autres
 
-#MENUDISPLAYCOMPONENT
+## MENUDISPLAYCOMPONENT
 On vous demande de :
 Terminer un composant Angular simple nommé MenuDisplayComponent ayant menu-display-component pour sélecteur.
 Terminer la déclaration de la variable appRoutes.
