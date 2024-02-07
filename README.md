@@ -1,14 +1,16 @@
 # ANGULAR-ALGO
 angular-algos coding game et autres
 
+---
+
 ## MENUDISPLAYCOMPONENT
 On vous demande de :
 Terminer un composant Angular simple nommé MenuDisplayComponent ayant menu-display-component pour sélecteur.
 Terminer la déclaration de la variable appRoutes.
  
-Le composant doit contenir deux éléments <a>. Ils symbolisent un menu de l'application :
-Quand on clique sur l'élément <a> avec id="menu1" le composant associé à la route /menu1 doit être chargé.
-Quand on clique sur l'élément <a> avec id="menu2" le composant associé à la route /menu2 doit être chargé.
+Le composant doit contenir deux éléments ```<a>```. Ils symbolisent un menu de l'application :
+Quand on clique sur l'élément ```<a> ```avec id="menu1" le composant associé à la route /menu1 doit être chargé.
+Quand on clique sur l'élément ```<a>``` avec id="menu2" le composant associé à la route /menu2 doit être chargé.
 Initialement, aucun des deux composants n'est chargé.
 Vous devez créer les routes correspondantes dans appRoutes. Menu1Component correspond au chemin menu1, Menu2Component correspond au chemin menu2.
  
@@ -18,15 +20,15 @@ Notes :
 Un bloc de "Preview" est disponible pour vous permettre de débugguer votre code. Il affiche votre composant ci-dessous. Vous pouvez l'ouvrir et le modifier à votre guise.
 Ce bloc de "Preview" n'est pas pris en compte dans le calcul du score de votre code.
 
-
+---
 
 ## CounterComponent
 On vous demande de créer un composant Angular simple nommé counter-component ayant  CounterComponent pour sélecteur.
 
 L'objectif de ce composant est de :
-Prendre un message en "input" Lire une valeur d'intervalle saisie par l'utilisateur (entier, en
-millisecondes) Envoyer le message en tant qu'événements de manière périodique vers son "output"
-Au niveau HTML, le composant est composé d'un champ <input> avec id="intervalInput" et d 'un bouton <button> avec id="intervalSetButton".
+Prendre un message en "input" Lire une valeur d'intervalle saisie par l'utilisateur (entier, en millisecondes) 
+Envoyer le message en tant qu'événements de manière périodique vers son "output"
+Au niveau HTML, le composant est composé d'un champ ```<input>``` avec id="intervalInput" et d 'un bouton ```<button>``` avec id="intervalSetButton".
 L'utilisateur peut modifier l'intervalle en saisissant une valeur dans le champ puis en cliquant sur le bouton.
 
 Le composant doit avoir un @Input nommé message et un @Output nommé tick.
@@ -47,15 +49,14 @@ message) Ce bloc de "Preview" n'est pas pris en compte dans le calcul du score d
 ## LabelComponent
 Vous devez créer un simple composant Angular nommé LabelComponent avec label-component pour sélecteur.
 
-Il doit afficher un  <div>  avec la classe label.
+Il doit afficher un ```<div>``` avec la classe label.
 Il prend deux entrées, un texte label à afficher et une couleur de texte color.
 
-Ainsi :
-<label-component label='Hello World!' color='red'></label-component>
+Ainsi :```<label-component label='Hello World!' color='red'></label-component>```
 
-Doit afficher :
-<div class="label" style="color: red;">Hello World!</div>
+Doit afficher : ```<div class="label" style="color: red;">Hello World!</div>```
  
+
 ---
 
 ## PipePercentCurrencyDate
@@ -80,7 +81,7 @@ L'id de ce div doit être amount. Il affiche les frais amount et la devise de la
 Le symbole de la devise associée au code currency (par exemple  pour € EUR) est affiché avant les frais
 Les frais sont formattés comme suit :
 S'il y a moins de 9 chiffres pour la partie entière, vous devez combler avec des zéros à gauche. Le
-séparateur des milliers doit être une virgule,. 
+séparateur des milliers doit être une virgule. 
 S'il y a moins de 2 chiffres dans la partie décimale, vous , devez comblez avec zéros à droite. 
 S'il y a plus de 2 chiffres dans la partie décimale, vous devez arrondir à 2 chiffres.
 Par exemple currency=EUR, amount=312.562 s'affiche €000,000,312.56.
@@ -90,3 +91,6 @@ L'id de ce div doit être time. La date et l'heure de la transaction doivent êt
 Notes:  Un bloc de "Preview" est disponible pour vous permettre de débugguer votre code. 
 Il affiche votre composant ci-dessous. Vous pouvez ouvrir ce bloc et le modifier à votre guise. 
 Le bloc de "Preview" n'est pas pris en compte dans le calcul du score de votre code.
+
+---
+
