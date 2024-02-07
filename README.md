@@ -41,3 +41,16 @@ Un bloc de "Preview" est disponible pour vous permettre de débugguer votre code
 dessous. Vous pouvez l'ouvrir et le modifier à votre guise. 
 Pour vous aider, ce bloc contient un composant parent qui manipule le composant que vous devez créer (affichage d'un compteur à côté du
 message) Ce bloc de "Preview" n'est pas pris en compte dans le calcul du score de votre code.
+
+## LabelComponent
+Vous devez créer un simple composant Angular nommé LabelComponent avec label-component pour sélecteur.
+
+Il doit afficher un  <div>  avec la classe label.
+Il prend deux entrées, un texte label à afficher et une couleur de texte color.
+
+Ainsi :
+<label-component label='Hello World!' color='red'></label-component>
+
+Doit afficher :
+<div class="label" style="color: red;">Hello World!</div>
+ 
